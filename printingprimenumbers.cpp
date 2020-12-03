@@ -10,7 +10,7 @@ bool isPrime(int i){
 }
 
 int main(){
-    for (int i = 0; i < 250; i++){
+    for (int i = 0; i <= 250; i++){
         auto ans = isPrime(i);
         cout << i;
         if (ans)
